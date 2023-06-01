@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-De-App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/00daac302c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- wrapper -->
+    <div id="wrapper" class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <!-- main content div -->
+        <div class="text-[#0398d4] font-medium text-[20px]]">Increment And Decrement</div>
+
+        <!-- counting div -->
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-md gap-12 py-3 px-5">
+
+            <!-- Increment div -->
+            <button onclick="plus()" class="border-r-2 border-[#bfbfbf] pr-5">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <!-- Updated number -->
+            <div class="font-bold number">
+                0
+            </div>
+
+            <!-- Decrement div -->
+            <button onclick="minus()" class="border-l-2 border-[#bfbfbf]">
+                <i class="fa-solid fa-minus pl-6"></i>
+            </button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
